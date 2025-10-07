@@ -32,9 +32,8 @@ The project includes visualization in **RViz**, simulation in **Gazebo**, and mo
 source /opt/ros/humble/setup.bash
 
 ### 2. Install turtlebot3 package in ROS2
-```bash
 $ sudo apt install ros-humble-turtlebot3*
-
+bash```
 
 This installs:
 
