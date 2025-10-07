@@ -26,7 +26,7 @@ The project includes visualization in **RViz**, simulation in **Gazebo**, and mo
 
 ## ⚙️ Installation
 
-### 1. Source ROS 2 Environment, Install turtlebot3 package and run turtlebot3
+### 1. Source ROS 2 Environment, Install turtlebot3 package and run turtlebot3 on Terminal 1
 ```bash
 source /opt/ros/humble/setup.bash
 sudo apt install ros-humble-turtlebot3*
@@ -42,4 +42,11 @@ turtlebot3_navigation2 (Nav2 stack)
 
 After selection we have to run the command given above to start the turtlebot3 to start the turtlebot2's Gazeebo simulation process in terminal(1). And it will be start always behind the other processes which we we do below in other programs.
 
+## Run
 
+### 2. Running Autonomously controlled turtlebot3 using ROS2 in Terminal 2 using shell script
+```bash
+cd ~/ros2_ws/src/
+chmod +x run.sh
+./run.sh
+```
