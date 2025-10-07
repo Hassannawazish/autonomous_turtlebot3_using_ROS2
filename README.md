@@ -34,7 +34,9 @@ sudo apt install ros-humble-turtlebot3*
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-This installs:
+
+
+# This installs:
 turtlebot3_description (URDF)
 turtlebot3_bringup (real-world)
 turtlebot3_gazebo (simulation)
