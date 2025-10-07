@@ -1,6 +1,5 @@
 # 🤖 Autonomous TurtleBot3 using ROS2
-**Author:** Hassan Nawazish  
-**Platform:** ROS 2 Humble (Ubuntu 20.04)  
+**Platform:** ROS 2 Humble (Ubuntu 22.04)  
 **Simulation Tools:** Gazebo, RViz, Foxglove  
 
 ---
@@ -33,14 +32,14 @@ source /opt/ros/humble/setup.bash
 sudo apt install ros-humble-turtlebot3*
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
 
-
-
-# This installs:
+### This installs:
 turtlebot3_description (URDF)
 turtlebot3_bringup (real-world)
 turtlebot3_gazebo (simulation)
 turtlebot3_navigation2 (Nav2 stack)
 
-
 After selection we have to run the command given above to start the turtlebot3 to start the turtlebot2's Gazeebo simulation process in terminal(1). And it will be start always behind the other processes which we we do below in other programs.
+
+
