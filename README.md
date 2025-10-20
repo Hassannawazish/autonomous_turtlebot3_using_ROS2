@@ -8,6 +8,7 @@
 
 The goal of this project is to create an **autonomous robot** using **Camera**, **LiDAR**, **IMU**, and **GPS** sensors with **ROS 2 (Humble)**.  
 The system is designed to **mimic the behavior of an autonomous vehicle**, featuring **SLAM (Simultaneous Localization and Mapping)** or **Visual SLAM** for real-time mapping and navigation.
+The simulation works perfectly but on hardware there can be some issue of robousness we have to change the conditions according to Lidar used.
 
 The project includes visualization in **RViz**, simulation in **Gazebo**, and monitoring in **Foxglove**.
 
